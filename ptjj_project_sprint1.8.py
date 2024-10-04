@@ -9,8 +9,8 @@ print(calculate_roots(1, 2, 1))
 ###joe mama
 import cmath
 from uncertainties import ufloat 
-## this is a substitution for +/- symbol
+## this  is a substitution for +/- symbol
 def calculate_quads (a, b, c):
     dis = b**2-4*a*c
-    (dis #+/- -b)
-     (dis) 2(a)
+    ufloat(dis b)
+    (dis) 2*(a)
