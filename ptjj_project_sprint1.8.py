@@ -8,5 +8,9 @@ print(calculate_roots(1, -5, 6))
 print(calculate_roots(1, 2, 1))
 ###joe mama
 import cmath
-def calculate_more_roots(a, b, c):
-    
+from uncertainties import ufloat 
+## this is a substitution for +/- symbol
+def calculate_quads (a, b, c):
+    dis = b**2-4*a*c
+    (dis #+/- -b)
+     (dis) 2(a)
